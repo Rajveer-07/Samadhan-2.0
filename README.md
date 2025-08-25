@@ -35,12 +35,12 @@ Sir, maine code run kiya tha aur ye output aaya hai mere terminal me.
 
 #### **Day 2: Highest Marks Output**
 
-![Day 2 Output](https://i.imgur.com/your-screenshot-link-2.png)
-<a href="https://ibb.co/JWwzC2x9"><img src="https://i.ibb.co/mrVHStv3/Screenshot-2025-08-25-at-1-38-21-PM.png" alt="Screenshot-2025-08-25-at-1-38-21-PM" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload images</a><br />
+![Day 2 Output](https://i.ibb.co/mrVHStv3/Screenshot-2025-08-25-at-1-38-21-PM.png)
+
 
 #### **Day 3: Marks Calculator Output**
 
-![Day 3 Output](https://i.imgur.com/your-screenshot-link-3.png)
+![Day 3 Output](https://i.ibb.co/ksRq6Prr/Screenshot-2025-08-25-at-1-38-47-PM.png)
 
 
 ---
