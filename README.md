@@ -32,16 +32,14 @@ Sir, maine code run kiya tha aur ye output aaya hai mere terminal me.
 #### **Day 1: Student Details Output**
 
 ![Day 1 Output](https://i.imgur.com/your-screenshot-link-1.png)
-_**(Yahan apne Day 1 ke output ka screenshot upload karke uska link daalna hai)**_
 
 #### **Day 2: Highest Marks Output**
 
 ![Day 2 Output](https://i.imgur.com/your-screenshot-link-2.png)
-_**(Yahan apne Day 2 ke output ka screenshot upload karke uska link daalna hai)**_
 
 #### **Day 3: Marks Calculator Output**
 
 ![Day 3 Output](https://i.imgur.com/your-screenshot-link-3.png)
-_**(Yahan apne Day 3 ke output ka screenshot upload karke uska link daalna hai)**_
+
 
 ---
