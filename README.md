@@ -31,7 +31,7 @@ Sir, maine code run kiya tha aur ye output aaya hai mere terminal me.
 
 #### **Day 1: Student Details Output**
 
-![Day 1 Output](https://i.imgur.com/your-screenshot-link-1.png)
+![Day 1 Output](https://i.ibb.co/Rd1PcP0/Screenshot-2025-08-25-at-1-35-37-PM.png)
 
 #### **Day 2: Highest Marks Output**
 
