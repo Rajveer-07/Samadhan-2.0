@@ -42,5 +42,18 @@ Sir, maine code run kiya tha aur ye output aaya hai mere terminal me.
 
 ![Day 3 Output](https://i.ibb.co/ksRq6Prr/Screenshot-2025-08-25-at-1-38-47-PM.png)
 
+#### **Day 4 Mini Task: API returning "Hello, World!"**
+
+![Day 4 Output](https://ibb.co/Zz4wtrbk)
+
+#### **Day 5 Mini Task: API returning student list in JSON**
+
+Day 5 bhi ho gaya! Aaj Express.js use kiya. Ye Node.js se server banane ko bahut easy bana deta hai.
+
+Task tha students ki list JSON format me bhejne ka. Maine ek `students` array banaya aur `app.get` se ek route (`/students`) banake `res.json` se usko bhej diya.
+
+`npm install express` karna pada tha pehle. Code chal gaya aur browser me JSON dikh raha hai. Bahut sahi feeling aa rahi hai ab. 😎
+
+Is file ko run karne ke liye `node day5_student_api.js` type karna hai terminal me.
 
 ---
