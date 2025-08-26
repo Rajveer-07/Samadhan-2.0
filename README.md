@@ -56,4 +56,8 @@ Task tha students ki list JSON format me bhejne ka. Maine ek `students` array ba
 
 Is file ko run karne ke liye `node day5_student_api.js` type karna hai terminal me.
 
----
+----
+
+#### **Day 6 Mini Task: React setup**
+every thing is done completely and finely
+
