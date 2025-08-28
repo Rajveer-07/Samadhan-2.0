@@ -58,6 +58,15 @@ Is file ko run karne ke liye `node day5_student_api.js` type karna hai terminal 
 
 ----
 
-#### **Day 6 Mini Task: React setup**
+#### **Day 7 Mini Task: React setup**
 every thing is done completely and finely
 
+#### **Day 8 Mini Task: React setup**
+every thing is done completely and finely
+
+#### **Day 9 Mini Task: React setup**
+every thing is done completely and finely
+
+
+#### **Day 10 Mini Task: React setup**
+every thing is done completely and finely
