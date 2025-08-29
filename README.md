@@ -64,11 +64,15 @@ Day 7 se React shuru ho gaya! 🎉
 
 Pehli baar `useState` hook use kiya. Task me do parts the: ek counter jo button click pe badhta/ghatta hai aur ek input box jisme jo bhi type karte hain, wo live screen pe dikhta hai. React ka state management dekh ke maza aa gaya! ✨
 
+----
+
 ### Day 8: React State - To-Do List
 
 Day 8 me ek To-Do List banayi. Isme naye tasks add kar sakte hain aur unhe "Done" mark kar sakte hain (jo unhe delete kar deta hai).
 
 State me array manage karna thoda tricky tha pehle, especially `filter` method use karke items remove karna, but ab clear ho gaya hai. Ye sab kuch local state me hai, matlab page refresh karne pe sab gayab ho jaata hai. 😂
+
+----
 
 ### Day 9: Connecting Frontend & Backend - Student Directory
 
@@ -76,11 +80,15 @@ Day 9 was mind-blowing! 🤯
 
 Finally, apni backend Express API ko React frontend se connect kiya. Backend server se students ki list `fetch` ki aur frontend pe table me show karwaya. CORS error aaya tha pehle, usko fix karne me thoda time laga. But frontend-backend ka connection successfully ho gaya. Full stack developer wali feeling aa rahi hai ab!
 
+----
+
 ### Day 10: React Components & Styling - Product Cards
 
 Day 10 me styling aur components pe focus kiya. Ek dummy product data (array of objects) liya aur usko `.map()` function se multiple Product Cards me display karwaya.
 
 Thodi CSS bhi lagayi taaki cards aache dikhein. Ek component banake usko baar-baar use karne ka concept aache se samajh aa gaya. Components are cool! 😎
+
+----
 
 ### Day 11: Backend CRUD - Student API
 
@@ -95,3 +103,5 @@ Aaj ek complete **CRUD API** banayi. CRUD ka matlab hai Create, Read, Update, De
 Data store karne ke liye abhi ek simple array use kiya hai. Isko test karne ke liye VS Code ka **Thunder Client** extension use kiya, kyunki POST, PUT, DELETE browser se direct nahi chalte.
 
 Ab aage database connectivity seekhna hai shayad. Backend developer wali feeling strong ho rahi hai! 🚀
+
+----
