@@ -105,3 +105,17 @@ Data store karne ke liye abhi ek simple array use kiya hai. Isko test karne ke l
 Ab aage database connectivity seekhna hai shayad. Backend developer wali feeling strong ho rahi hai! 🚀
 
 ----
+
+### Day 12: React + API - Full Stack To-Do App
+
+Day 12 was the real deal! 🔥
+
+Ek complete **Full Stack To-Do App** banayi. Iska backend Node/Express me hai aur frontend React me.
+
+* **Backend:** `GET`, `POST`, `DELETE` routes banaye to-dos ko manage karne ke liye. `CORS` package use karna pada frontend-backend connection ke liye.
+* **Frontend:** Pehli baar **`useEffect`** hook use kiya. Component load hote hi backend se data fetch karke screen pe dikhaya. Add aur Delete functionality bhi API calls ke through ho rahi hai.
+
+Ab data page refresh karne par delete nahi hota! It's permanently stored in the backend (jab tak server chalu hai). Amazing experience! 🚀
+
+
+-----
