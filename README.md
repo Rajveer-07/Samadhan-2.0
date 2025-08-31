@@ -119,3 +119,19 @@ Ab data page refresh karne par delete nahi hota! It's permanently stored in the 
 
 
 -----
+
+### Day 13: Database Basics - Full-Stack Notes App
+
+Day 13 was a HUGE step! Finally, we are using a real database. Ab hamara data permanent hai! 🤯
+
+* **Tech Used:** **MongoDB** (with **MongoDB Atlas** for cloud hosting) and **Mongoose** for connecting our Express app to the database.
+* **Task:** Ek full-stack CRUD Notes App banaya. Backend me notes create, read aur delete kar sakte hain, aur saara data MongoDB me store ho raha hai.
+* **Key Learnings:**
+    * Mongoose se Schema (data ka blueprint) aur Model banana seekha.
+    * Saare CRUD operations ko `async/await` use karke update kiya taaki wo database se interact kar sakein.
+    * Mongoose methods jaise `Note.find()`, `newNote.save()`, aur `Note.findByIdAndDelete()` use kiye.
+* **Frontend:** Frontend ka code Day 12 To-Do App jaisa hi hai, bas `fetch` calls ko `/todos` ki jagah `/notes` pe point kiya aur state ko title/content ke hisab se manage kiya.
+
+Server band karke restart karne ke baad bhi data wahin tha... This is the real power of backend! 🔥
+
+----
