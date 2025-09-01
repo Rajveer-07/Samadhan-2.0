@@ -135,3 +135,18 @@ Day 13 was a HUGE step! Finally, we are using a real database. Ab hamara data pe
 Server band karke restart karne ke baad bhi data wahin tha... This is the real power of backend! 🔥
 
 ----
+
+### Day 14: Authentication Basics - User Auth API
+
+Day 14 was all about security! 🛡️ Aaj users ke liye ek secure Registration aur Login system ka backend banaya.
+
+* **Task:** Ek backend-only API banayi jisme do main endpoints hain: `/register` aur `/login`.
+* **Key Learnings:**
+    * Passwords ko kabhi bhi plain text me save nahi karna chahiye! **`bcryptjs`** library use karke passwords ko **hash** karna seekha.
+    * Successful login ke baad user ko ek **JWT (JSON Web Token)** generate karke dena seekha. Ye token ek "logged-in" proof ki tarah kaam karta hai.
+    * `bcrypt.hash()` aur `bcrypt.compare()` ka use samajh aa gaya.
+    * `jwt.sign()` se token banate hain aur usme user ki ID jaisi important info daal sakte hain.
+
+Abhi sirf backend hai, isko frontend se connect karna next step hoga shayad. This was one of the most important topics so far!
+
+-----
