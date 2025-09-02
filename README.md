@@ -150,3 +150,20 @@ Day 14 was all about security! 🛡️ Aaj users ke liye ek secure Registration 
 Abhi sirf backend hai, isko frontend se connect karna next step hoga shayad. This was one of the most important topics so far!
 
 -----
+
+
+### Day 15: React + Auth - Complete Full-Stack App
+
+Day 15 - The Grand Finale! Sab kuch connect ho gaya! 🚀
+
+* **Task:** Day 14 ke Auth backend ko React frontend se connect karke ek complete **Full-Stack Authentication** system banaya.
+* **Key Learnings:**
+    * React me Login/Register forms banaye aur `fetch` se backend API ko call kiya.
+    * Login ke baad backend se mile **JWT token** ko **`localStorage`** me save karna seekha. Ye part sabse important tha.
+    * **Protected Routes** banana seekha using `react-router-dom`. Ek custom `ProtectedRoute` component banaya jo check karta hai ki user logged in hai ya nahi. Ab `/dashboard` jaisa page sirf logged-in users hi dekh sakte hain.
+* **Final Thoughts:** This was the toughest but most rewarding task. Ek complete MERN stack flow (MongoDB, Express, React, Node.js) ab samajh aa gaya hai. Hackathon complete! ✅
+
+Thank you `code.calmchase.com` for this amazing learning experience!
+
+
+-----
