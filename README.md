@@ -226,6 +226,69 @@ Bas! Ab project aapke browser me http://localhost:5173 (ya kisi aur port) par li
 My Learnings & Conclusion
 Yeh project banake sach me bahut kuch seekhne ko mila. Components, props, useState, useEffect, aur custom hooks (useCart.ts banane me sabse zyada maza aaya) jaise concepts ab bilkul clear ho gaye hain. TypeScript aur Tailwind CSS ne project ko ek professional feel diya.
 
+
+-----
+
+
+### Day 17: Samashan - Real-time Chat Application
+
+Yeh mere https://www.google.com/search?q=code.calmchase.com hackathon ka Day 17 ka project hai. Iska naam maine "समाधान" rakha hai. 🚀
+
+Yeh ek simple, sundar, aur real-time chat application hai. Is project ko banane me bahut maza aaya, especially UI components ke saath.
+
+🛠️ Tech Stack & Libraries
+Is project ka UI aacha banane ke liye maine kuch naye tools try kiye hain:
+
+Framework: React.js
+
+Build Tool: Vite
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+UI Components: Shadcn/ui (Isse UI banana bahut aasan aur flexible ho gaya!)
+
+Icons: Lucide React
+
+✨ Features
+💬 Real-time Messaging (Simulated): Abhi backend nahi hai, isliye setInterval se naye messages aane ki simulation banayi hai.
+
+👥 User Status Indicators: Kaunsa user online hai aur kaunsa offline, yeh live dikhta hai.
+
+📱 Fully Responsive Design: Application desktop aur mobile, dono par perfectly kaam karti hai.
+
+🎨 Clean & Modern Interface: Shadcn/ui se ek professional aur clean UI banaya hai.
+
+🚀 Auto-Scrolling: Naye message aane par chat window automatically scroll ho jaati hai.
+
+🤖 Mock Replies: Message bhejne ke 2 second baad ek automatic reply aata hai, taaki chat real lage.
+
+🚀 How to Run this Project Locally
+Is project ko apne system par chalane ke liye:
+
+Clone the repository:
+
+git clone [https://github.com/your-username/samadhaan-chat.git](https://github.com/your-username/samadhaan-chat.git)
+
+Project folder me jaein:
+
+cd samadhaan-chat
+
+Saare packages install karein:
+
+npm install
+
+Project ko start karein:
+
+npm run dev
+
+Bas! Ab project aapke browser me http://localhost:8080 par live ho jayega.
+
+My Learnings & Conclusion
+Day 17 ka project aakhri project se bhi zyada challenging tha. Isme maine Shadcn/ui ko aache se explore kiya aur seekha ki kaise ek aacha design system banate hain. Real-time features ko simulate karna bhi ek aacha experience tha.
+
+Hackathon ke is poore safar me, yeh project UI/UX ke mamle me mera sabse best kaam hai. I'm very happy with the final result! 😊
 Hackathon ka aakhri din tha, aur mujhe lagta hai ki maine apna best diya. Thank you for this amazing course! 🙏
 
 
