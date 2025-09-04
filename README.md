@@ -167,3 +167,67 @@ Thank you `code.calmchase.com` for this amazing learning experience!
 
 
 -----
+
+###Day 16 Capstone Project: Samadhan - E-commerce Store
+
+Yeh mere https://www.google.com/search?q=code.calmchase.com hackathon ka final project hai! 🚀
+
+Maine ek complete e-commerce store ka frontend banaya hai. Isme products dekhne se lekar, cart me add karne, aur fake payment karne tak ka poora flow hai. Yeh project ab tak ki meri saari learnings ka combination hai.
+
+🛠️ Tech Stack & Libraries
+Is project ko banane ke liye maine modern frontend technologies ka use kiya hai:
+
+Framework: React.js
+
+Build Tool: Vite (Bahut fast hai! ⚡)
+
+Language: TypeScript (Type safety ke liye, isme thoda time laga but maza aaya)
+
+Styling: Tailwind CSS (Modern UI banane ke liye)
+
+Icons: Lucide React (Sundar icons ke liye)
+
+✨ Features
+Is application me maine yeh saare features banaye hain:
+
+Product Catalog: Saare products ek sundar grid me dikhte hain.
+
+Search & Filter: Products ko naam se search kar sakte hain aur category se filter bhi kar sakte hain.
+
+Shopping Cart: Ek functional side-cart jisme items add, remove, aur unki quantity update kar sakte hain.
+
+Simulated Checkout: Ek checkout modal jisme Card/UPI payment ka option hai (simulation only).
+
+Payment Success Modal: Successful payment ke baad ek confirmation pop-up aata hai.
+
+Fully Responsive: Website mobile, tablet, aur desktop, teeno par aache se chalti hai.
+
+🚀 How to Run this Project Locally
+Is project ko apne laptop par chalane ke liye in steps ko follow karein:
+
+Clone the repository:
+
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+
+Project folder me jaein:
+
+cd project-folder-name
+
+Saare packages install karein:
+
+npm install
+
+Project ko start karein:
+
+npm run dev
+
+Bas! Ab project aapke browser me http://localhost:5173 (ya kisi aur port) par live ho jayega.
+
+My Learnings & Conclusion
+Yeh project banake sach me bahut kuch seekhne ko mila. Components, props, useState, useEffect, aur custom hooks (useCart.ts banane me sabse zyada maza aaya) jaise concepts ab bilkul clear ho gaye hain. TypeScript aur Tailwind CSS ne project ko ek professional feel diya.
+
+Hackathon ka aakhri din tha, aur mujhe lagta hai ki maine apna best diya. Thank you for this amazing course! 🙏
+
+
+-------
+
