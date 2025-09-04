@@ -168,7 +168,7 @@ Thank you `code.calmchase.com` for this amazing learning experience!
 
 -----
 
-###Day 16 Capstone Project: Samadhan - E-commerce Store
+### Day 16 Capstone Project: Samadhan - E-commerce Store
 
 Yeh mere https://www.google.com/search?q=code.calmchase.com hackathon ka final project hai! 🚀
 
