@@ -419,4 +419,66 @@ Yeh project ab tak ka mera sabse complete frontend application hai. Isko banane 
 
 ------
 
+### Day 20: Weatherly - A Minimal Weather Dashboard
+
+Day 20 DONE! 🔥 Is baar ekdum real-world application banayi hai - ek live Weather Dashboard jiska naam maine "Weatherly" rakha hai.
+
+Is project me pehli baar maine ek real external API (OpenWeatherMap) se data fetch kiya hai. API key ke chakkar me thoda error aaya tha, but ab sab set hai. 😎
+
+🛠️ Tech Stack & Libraries
+Is project ko banane ke liye maine professional tools ka use kiya hai:
+
+Framework: React.js
+
+Build Tool: Vite
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+UI Components: Shadcn/ui (Isse UI ekdum premium lagta hai!)
+
+Icons: Lucide React
+
+✨ Features
+🌦️ Live Weather Data: Real-time me current temperature, humidity, aur wind speed dikhata hai.
+
+📍 Geolocation Support: App khulte hi aapki current location ka weather automatically dikha deta hai.
+
+🔍 City Search: Aap kisi bhi city ka naam daal kar wahan ka weather check kar sakte hain.
+
+📅 5-Day Forecast: Aane waale 5 dino ka weather forecast bhi dikhata hai.
+
+⏳ Loading & Error States: Data load hote time skeleton loaders dikhte hain, jisse user experience aacha rehta hai.
+
+📱 Fully Responsive Design: Desktop aur mobile, dono par aache se chalta hai.
+
+🚀 How to Run this Project Locally
+IMPORTANT: Is project ko chalane ke liye aapko OpenWeatherMap se ek free API key ki zaroorat padegi.
+
+OpenWeatherMap par signup karke apni API key lein.
+
+Repository ko clone karein:
+
+git clone [https://github.com/your-username/weatherly-app.git](https://github.com/your-username/weatherly-app.git)
+
+Project folder me jaein:
+
+cd weatherly-app
+
+Root folder me .env.local naam ki ek file banayein aur usme apni API key aise daalein:
+
+VITE_WEATHER_API_KEY=your_actual_api_key_here
+
+Saare packages install karein:
+
+npm install
+
+Project ko start karein:
+
+npm run dev
+
+-------
+
+
 
