@@ -294,3 +294,65 @@ Hackathon ka aakhri din tha, aur mujhe lagta hai ki maine apna best diya. Thank 
 
 -------
 
+
+### Day 18: TaskFlow - Kanban Board
+
+Day 18 ka project complete! Yeh ab tak ka sabse complex aur mazedaar project tha. Maine Trello jaisa ek Kanban Task Management Board banaya hai. 🚀
+
+Iska sabse cool feature hai tasks ko drag karke ek column se dusre me move karna. Isko banane me bahut kuch naya seekhne ko mila.
+
+🛠️ Tech Stack & Libraries
+Is project ko banane ke liye maine modern frontend technologies ka use kiya hai:
+
+Framework: React.js
+
+Build Tool: Vite
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+UI Components: Shadcn/ui (Isse UI ekdum professional lag raha hai!)
+
+Drag & Drop: React Beautiful DnD (Yeh wala part thoda tricky tha, but finally ho gaya! 😎)
+
+✨ Features
+✅ Drag & Drop: Tasks ko To Do, In Progress, aur Done columns ke beech aasani se move kar sakte hain.
+
+➕ Add New Tasks: Ek modal se naye tasks add kar sakte hain, jisme title, description, priority, aur due date set kar sakte hain.
+
+🎨 Priority Badges: Har task ki priority (Low, Medium, High) alag-alag color ke badge se dikhti hai.
+
+📅 Due Dates: Har task par uski due date bhi dikhti hai.
+
+📱 Responsive Design: Board mobile aur desktop, dono par aache se kaam karta hai.
+
+💾 Local State: Saare tasks abhi browser ke local state mein save ho rahe hain.
+
+🚀 How to Run this Project Locally
+Is project ko apne system par chalane ke liye:
+
+Repository ko clone karein:
+
+git clone [https://github.com/your-username/taskflow-kanban.git](https://github.com/your-username/taskflow-kanban.git)
+
+Project folder me jaein:
+
+cd taskflow-kanban
+
+Saare packages install karein:
+
+npm install
+
+Project ko start karein:
+
+npm run dev
+
+Bas! Ab project aapke browser me http://localhost:8080 par live ho jayega.
+
+My Learnings & Conclusion
+Day 18 ka project aab tak ka sabse challenging tha. react-beautiful-dnd library se drag and drop ka logic aache se samajh aa gaya. Complex state ko manage karna (array of objects) aur usko onDragEnd function me update karna ek aacha experience tha.
+
+Shadcn/ui ke components use karke UI banana bahut hi fast aur aasan ho gaya. Overall, is project ko banake full-stack developer banne ka confidence aur badh gaya hai. I'm very happy with the final result! 😊
+
+------
