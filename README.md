@@ -480,5 +480,57 @@ npm run dev
 
 -------
 
+### Day 21: My Personal Portfolio Website
 
+Aur yeh hai GRAND FINALE! 🎉 Hackathon ke aakhri din maine apni saari learnings ko ek saath daal kar apni khud ki Personal Portfolio Website banayi hai.
 
+Yeh project mera online resume hai jisme mere baare mein, meri skills, aur is hackathon me banaye gaye saare projects hain. Isko banake sach me laga ki haan, ab main ek Frontend Developer ban gaya hu!
+
+🛠️ Tech Stack & Libraries
+Is project ko banane ke liye maine modern frontend technologies ka use kiya hai:
+
+Framework: React.js
+
+Build Tool: Vite
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+UI Components: Shadcn/ui (Isse UI ekdum amazing lag raha hai!)
+
+Icons: Lucide React
+
+✨ Features & Sections
+Yeh ek Single Page Application hai jisme alag-alag sections hain:
+
+👋 Hero Section: Ek aacha sa introduction aur "Hi, I'm Rajveer" wala welcome message.
+
+👨‍💻 About Me: Mere baare me thodi details aur meri skills.
+
+🚀 Projects: Sabse important section! Yahan maine is hackathon ke saare projects ko aache se display kiya hai.
+
+📬 Contact Form: Ek simple sa form jisse koi bhi mujhse connect kar sakta hai.
+
+📱 Fully Responsive: Website mobile par bhi ekdum mast chalti hai.
+
+🚀 How to Run this Project Locally
+Is project ko apne system par chalane ke liye in steps ko follow karein:
+
+Repository ko clone karein:
+
+git clone [https://github.com/your-username/my-portfolio.git](https://github.com/your-username/my-portfolio.git)
+
+Project folder me jaein:
+
+cd my-portfolio
+
+Saare packages install karein:
+
+npm install
+
+Project ko start karein:
+
+npm run dev
+
+-----
