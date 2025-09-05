@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Weather-themed design system - yahan sabse beautiful colors define kar rahe hain */
+
+@layer base {
+  :root {
+    /* Weather-inspired background gradients */
+    --background: 210 100% 97%;
+    --foreground: 220 30% 15%;
+
+    /* Card system for weather cards */
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 15%;
+
+    /* Primary - beautiful blue for clear weather */
+    --primary: 210 100% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - soft cloud colors */
+    --secondary: 210 20% 92%;
+    --secondary-foreground: 220 30% 25%;
+
+    --muted: 210 15% 95%;
+    --muted-foreground: 220 15% 50%;
+
+    /* Accent - warm sunset colors */
+    --accent: 35 100% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 25% 88%;
+    --input: 210 25% 88%;
+    --ring: 210 100% 56%;
+
+    --radius: 1rem;
+
+    /* Weather-specific colors */
+    --sunny: 45 100% 60%;
+    --sunny-foreground: 0 0% 100%;
+    
+    --cloudy: 210 15% 75%;
+    --cloudy-foreground: 220 30% 25%;
+    
+    --rainy: 210 50% 45%;
+    --rainy-foreground: 0 0% 100%;
+    
+    --snowy: 200 20% 90%;
+    --snowy-foreground: 220 30% 25%;
+
+    /* Beautiful gradients for different weather conditions */
+    --gradient-sunny: linear-gradient(135deg, hsl(45 100% 70%), hsl(35 100% 65%));
+    --gradient-cloudy: linear-gradient(135deg, hsl(210 25% 85%), hsl(210 15% 75%));
+    --gradient-rainy: linear-gradient(135deg, hsl(210 60% 55%), hsl(210 50% 45%));
+    --gradient-clear: linear-gradient(135deg, hsl(210 100% 70%), hsl(210 100% 56%));
+    --gradient-night: linear-gradient(135deg, hsl(230 35% 25%), hsl(240 45% 15%));
+
+    /* Animation ke liye smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-weather: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    /* Shadow effects for weather cards */
+    --shadow-weather: 0 8px 32px hsla(210, 100%, 56%, 0.15);
+    --shadow-weather-hover: 0 12px 48px hsla(210, 100%, 56%, 0.25);
+  }
+
+  .dark {
+    --background: 220 30% 8%;
+    --foreground: 210 25% 92%;
+
+    --card: 220 30% 12%;
+    --card-foreground: 210 25% 92%;
+
+    --popover: 220 30% 12%;
+    --popover-foreground: 210 25% 92%;
+
+    --primary: 210 100% 65%;
+    --primary-foreground: 220 30% 8%;
+
+    --secondary: 220 25% 18%;
+    --secondary-foreground: 210 25% 85%;
+
+    --muted: 220 25% 15%;
+    --muted-foreground: 210 15% 65%;
+
+    --accent: 35 100% 70%;
+    --accent-foreground: 220 30% 8%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 25% 18%;
+    --input: 220 25% 18%;
+    --ring: 210 100% 65%;
+
+    /* Dark mode weather gradients */
+    --gradient-sunny: linear-gradient(135deg, hsl(45 90% 65%), hsl(35 90% 60%));
+    --gradient-cloudy: linear-gradient(135deg, hsl(220 25% 25%), hsl(220 20% 20%));
+    --gradient-rainy: linear-gradient(135deg, hsl(210 40% 35%), hsl(210 35% 25%));
+    --gradient-clear: linear-gradient(135deg, hsl(210 80% 45%), hsl(210 70% 35%));
+    --gradient-night: linear-gradient(135deg, hsl(230 45% 15%), hsl(240 55% 8%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-background via-background to-secondary/30 text-foreground min-h-screen;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  /* Weather animation classes - yahan cool animations define kar rahe hain */
+  .weather-card {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl;
+    box-shadow: var(--shadow-weather);
+  }
+
+  .weather-card:hover {
+    box-shadow: var(--shadow-weather-hover);
+  }
+
+  .weather-gradient-sunny {
+    background: var(--gradient-sunny);
+  }
+
+  .weather-gradient-cloudy {
+    background: var(--gradient-cloudy);
+  }
+
+  .weather-gradient-rainy {
+    background: var(--gradient-rainy);
+  }
+
+  .weather-gradient-clear {
+    background: var(--gradient-clear);
+  }
+
+  .weather-gradient-night {
+    background: var(--gradient-night);
+  }
+
+  /* Floating animation for weather icons */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(2deg); }
+  }
+
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  /* Pulse animation for loading states */
+  @keyframes weather-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+
+  .weather-pulse {
+    animation: weather-pulse 2s ease-in-out infinite;
+  }
+}
