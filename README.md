@@ -356,3 +356,67 @@ Day 18 ka project aab tak ka sabse challenging tha. react-beautiful-dnd library 
 Shadcn/ui ke components use karke UI banana bahut hi fast aur aasan ho gaya. Overall, is project ko banake full-stack developer banne ka confidence aur badh gaya hai. I'm very happy with the final result! 😊
 
 ------
+
+### Day 19: TaskFlow - SocialFeed - A Modern Social Media App
+
+Day 19 ka task to ekdam next level tha! Maine ek social media feed application ka frontend banaya hai, thoda-thoda Twitter jaisa. Isme posts hain, user profiles hain, aur ek clean layout hai. 🚀
+
+Is project me maine pehli baar itne saare components aur pages ko ek saath manage kiya hai.
+
+🛠️ Tech Stack & Libraries
+Is project ko banane ke liye maine professional tools ka use kiya hai:
+
+Framework: React.js
+
+Build Tool: Vite
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+UI Components: Shadcn/ui (Yeh best cheez hai! Isse UI banana bahut hi aasan ho gaya.)
+
+Routing: React Router DOM (Alag-alag pages banane ke liye)
+
+Icons: Lucide React
+
+✨ Features
+📜 Infinite Scroll Feed: Home page par saare users ke posts dikhte hain (abhi dummy data se).
+
+➕ Create New Post: User naye posts create karke feed me add kar sakta hai.
+
+👤 User Profiles: Kisi bhi user ke naam par click karke uski profile page par ja sakte hain.
+
+❤️ Like & Comment Actions: Har post par like aur comment karne ke buttons hain (functionality abhi UI only hai).
+
+📱 Fully Responsive Layout: Ek proper sidebar ke saath jo mobile par bhi aache se kaam karta hai.
+
+🚀 How to Run this Project Locally
+Is project ko apne system par chalane ke liye in steps ko follow karein:
+
+Repository ko clone karein:
+
+git clone [https://github.com/your-username/socialfeed-app.git](https://github.com/your-username/socialfeed-app.git)
+
+Project folder me jaein:
+
+cd socialfeed-app
+
+Saare packages install karein:
+
+npm install
+
+Project ko start karein:
+
+npm run dev
+
+Bas! Ab project aapke browser me http://localhost:8080 par live ho jayega.
+
+My Learnings & Conclusion
+Day 19 ka project banane me bahut kuch seekha. Pehli baar React Router DOM use karke multiple pages banaye aur unke beech navigation handle kiya. Shadcn/ui ke saath kaam karke component-based UI design ki power samajh aayi.
+
+Yeh project ab tak ka mera sabse complete frontend application hai. Isko banane ke baad ab main kisi bhi tarah ka complex UI bana sakta hu. I am really proud of this one! 😊
+
+------
+
+
