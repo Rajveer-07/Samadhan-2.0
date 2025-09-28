@@ -3,7 +3,7 @@
 
 This is Team - ThiRd eye coder
 
----
+----
 
 ### 🚀 Hackathon Mini Tasks Solutions
 
